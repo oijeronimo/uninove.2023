@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(21, 139, 139);
+    color: white;
+    font-family:sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        display: inline-block;
+        margin: 20px;
+        font-size: 17px;
+    
+    }
+    #title-qmsomos{
+        flex-direction: column;
+      
+        
+    }
+    h1{
+        font-weight: 200;
+       
+    
+    }
+    h1 a {
+        text-decoration: none;
+        font-size:50px;
+    }
+    a{
+        color: white;
+       
+    }
+    a:hover{
+        color: rgb(230, 213, 60);
+        transition: 0.3s all;
+    
+    } 
+#cadastro-btn{
+    border: 2px solid rgb(230, 213, 60);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#cadastro-btn:hover{
+    background-color: rgb(230, 213, 60);
+    color: black;
+}
+#My-btn{
+    border: 2px solid rgb(230, 213, 60);
+    padding: 10px;
+    border-radius: 20px;
+}
+#My-btn:hover{
+    background-color: rgb(230, 213, 60);
+    color: black;
+}
+span{
+    color: rgb(236, 222, 93);
+}
+
+h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 500px;
+    height: 600px;
+}
+
+.instagram{
+transform: scale(300%);
+margin-right: 100px;
+
+
+
+}
+
+.facebook{
+    transform: scale(300%);
+    
+    }
+
+.linkedin{
+transform: scale(300%);
+margin-left: 100px;
+
+        
+        }
